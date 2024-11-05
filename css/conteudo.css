@@ -1,0 +1,55 @@
+main{
+    width: 80%;
+    background-color: var(--cinza);
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: var(--claro);
+    border-radius: 1.5rem;
+    align-items: center;
+    margin: 1% 10%;
+
+}
+
+.conteudo h2 {
+    font-size: 2rem;
+    margin-top: 2.3rem;
+}
+
+
+
+
+.conteudo img{
+    border-radius: 1.5rem;
+    width: 80rem;
+    height: 45rem;
+
+
+}
+
+/* .conteudo > .banner{
+    width: 59%;
+    height: 50rem;
+    background-image: url(./img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    border-radius: 1.5rem;
+
+} */
+
+
+
+.conteudo p{
+    font-size: 1rem;
+}
+
+h1, h2, nav>a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}

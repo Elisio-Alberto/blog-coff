@@ -53,3 +53,21 @@ h1, h2, nav>a{
     font-weight: 700;
     text-decoration: none;
 }
+
+@media (max-width: 400px) {
+    main{
+        width: 100%;
+    }
+    .conteudo img{
+        border-radius: 1.5rem;
+        width: 90%;
+        height: 50%;
+    }
+    .conteudo{
+            padding: 1rem;
+            gap: 0.3rem;
+            background-color: var(--claro);
+            border-radius: 0.5rem;
+            align-items: center;
+            margin: 1% 4%;}
+}
